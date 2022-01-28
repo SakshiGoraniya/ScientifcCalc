@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: ruby-base-container;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background: #ecf0f3;
+}
+
+.container1 {
+    width: max-content;
+    margin-left: 1.8em;
+    padding: 20px;
+    margin-top: 50px;
+    border:5 px solid black;
+  
+}
+
+.row1 button {
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin: 8px;
+    border-radius: 7px;
+    background:#d3d3d3;
+}
+
+.display {
+    width: max-content;
+    height: 70px;
+    font-size: 30px;
+    outline: none;
+    border: 1px solid black;
+    text-align: right;
+    background:white;
+    border-radius: 5px;
+    /*background: #ecf0f3;*/
+}
+
+#screen {
+    width: 350px;
+    height: 60px;
+    text-align: right;
+    border: none;
+    background: #ecf0f3;
+    font-size: 35px;
+    outline: none;
+}
+
+#lbut {
+    margin-right: 220px;
+}
+
+.blur {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+#tri {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 3px;
+}
+
+#fun {
+    width: 15px;
+    height: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.back {
+    background: #3e96da;
+}
+
+.row2 {
+    display: flex;
+    margin-right: 1rem;
+    text-decoration: none;
+   
+}
+
+.dropdown-toggle {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-toggle:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-toggle:active {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-toggle:visited {
+    text-decoration: none;
+    color: black;
+}
