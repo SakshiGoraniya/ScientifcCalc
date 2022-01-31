@@ -18,7 +18,7 @@
 
 <body>
 
-    <div class="container1" style="border:1px solid black;border-radius: 3px;">
+    <div class="container1" >
        
             <div class="display">
                 <input type="text" id="screen" placeholder="0">
@@ -30,11 +30,31 @@
                     <button onclick="screen.value=screen.value * (180/Math.PI)">DEG</button>
                     <button onclick="fe()">F-E</button>
                 </div>
-                <div class="row1">
-                                 <button onclick="sin()">sin</button>
-                                <button onclick="cos()">cos</button>
-                                <button onclick="tan()">tan</button>
-                                <button onclick="cot()">cot</button>
+             
+
+                <div class="row2">
+                    <ul style="list-style-type: none;">
+                        <li class="dropdown" id="list">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="./img/t.png" id="tri">
+                                Trigonometry <b class="caret"></b></a>
+                            <ul class="dropdown-menu" >
+                                <li> <button onclick="sin()">sin</button></li>
+                                <li> <button onclick="cos()">cos</button> </li>
+                                <li><button onclick="tan()">tan</button> </li>
+                                <li><button onclick="cot()">cot</button> </li>
+                            </ul>
+                           
+                        </li>
+                    </ul>
+                    <ul style="list-style-type: none;">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="./img/f.png" id="fun">
+                                Function <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>Up</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
 
                
