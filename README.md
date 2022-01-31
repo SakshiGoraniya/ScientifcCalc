@@ -1,2 +1,3 @@
 Scientific calculator 
-![Screenshot from 2022-01-28 16-51-20](https://user-images.githubusercontent.com/83365704/151538490-d1ebd671-c5a6-4976-b413-ec918b73f7ca.png)
+![Screenshot from 2022-01-31 13-42-32](https://user-images.githubusercontent.com/83365704/151759380-f8f0b5f3-1f3f-4f47-8769-60f396456572.png)
+
